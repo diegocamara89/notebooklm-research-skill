@@ -1,0 +1,24 @@
+# NotebookLM auth (NUNCA versionar — contém cookies pessoais Google)
+storage_state.json
+*.session
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Output cache de pesquisas locais
+notebooklm-research/
+.research-cache/

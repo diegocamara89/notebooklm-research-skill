@@ -1,0 +1,13 @@
+# Normaliza line endings
+* text=auto
+
+# Scripts shell PRECISAM ser LF (CRLF quebra com /bin/bash^M: bad interpreter)
+*.sh text eol=lf
+
+# Scripts PowerShell PRECISAM ser CRLF no Windows
+*.ps1 text eol=crlf
+
+# Markdown e configs textuais
+*.md text
+*.txt text
+LICENSE text
