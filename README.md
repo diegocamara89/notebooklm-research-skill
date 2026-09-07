@@ -1,3 +1,24 @@
+> [!WARNING]
+> ## Projeto descontinuado — setembro de 2026
+>
+> Esta skill **não é mais mantida**. O que ela oferecia passou a vir de fábrica no
+> projeto que ela usava como dependência: o
+> [`notebooklm-py`](https://github.com/teng-lin/notebooklm-py) agora distribui
+> **skill oficial e servidor MCP próprios** (`notebooklm skill install` e
+> `notebooklm mcp install <cliente>`), cobrindo bem mais que pesquisa — cadernos
+> persistentes, chat ancorado com citações, notas, e geração de áudio, slides,
+> infográfico, mapa mental, quiz e flashcards.
+>
+> Mais importante: a versão 0.8 introduziu autenticação por **master token
+> durável**, que re-emite os cookies do Google sozinha, sem navegador. Isso
+> resolve o principal atrito desta skill — o `login --fresh` manual a cada
+> expiração de sessão.
+>
+> **Use o projeto oficial:** <https://github.com/teng-lin/notebooklm-py>
+>
+> Este repositório fica arquivado em somente leitura, para não quebrar links
+> e forks existentes.
+
 # notebooklm-research-skill
 
 Skill plug-and-play para Claude Code, Codex e OpenClaw que delega pesquisa estruturada na internet ao Google NotebookLM. Decide automaticamente entre modo `fast` e `deep`, gera relatório markdown em PT-BR com citações, e limpa atrás de si.
